@@ -11,4 +11,15 @@ export default StyleSheet.create({
         borderWidth: 1,
         borderColor: '#888',
     },
+    operationButton:{
+        color:'#fff',
+        backgroundColor:'#fa8231',
+
+    },
+    buttonDouble:{
+        width: 2*(Dimensions.get('window').width/4),
+    },
+    buttonTriple:{
+        width: 3*(Dimensions.get('window').width/4),
+    }
 })
